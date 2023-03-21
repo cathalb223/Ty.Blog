@@ -1,17 +1,17 @@
 html,body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  font-size: 14px;
-  background: #ffffff;
+  font-size: 18px;
+  background: #717374e7;
 }
 .navbar.is-white {
-  background: #c0d4e0;
+  background: #e90101;
 }
 .navbar-brand .brand-text {
   font-size: 1.11rem;
   font-weight: bold;
 }
 .hero-body
-{background-image: url(https://media.gq.com/photos/57672ef65db2e8cb18c9e9a8/64:25/w_2943,h_1149,c_limit/homer-simpson-driving.jpg);
+{background-image: url(https://trumpwallpapers.com/wp-content/uploads/Night-Sky-Wallpaper-01-1920x1080-1.jpg);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -37,7 +37,7 @@ max-height: 100%;
     width: 60px;
     height: 60px;
     margin-left: -30px;
-    border: 3px solid #ccc;
+    border: 3px solid #717374e7;
     border-radius: 50%;
 }
 .media-center {
