@@ -7,16 +7,16 @@
 
 html {
   font-family: 'Nunito Sans', sans-serif;
-  color: white;
+  color: rgb(158, 158, 158);
 }
 
 a {
-  color: #3b7adf;
+  color: #ffffff;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #3b7adf;
+  color: #ffffff;
 }
 
 hr {
@@ -24,7 +24,7 @@ hr {
 }
 
 .hero {
-  background: #b91313;
+  background: #2a4172;
 }
 
 .title,
@@ -33,7 +33,7 @@ hr {
 }
 
 .navbar .navbar-item {
-  color: #a16565;
+  color: #ffffff;
 }
 
 .navbar .navbar-item.is-active {
@@ -48,7 +48,7 @@ hr {
 
 .navbar .navbar-item a {
   margin-left: 1rem;
-  color: #c56767;
+  color: #ffffff;
 }
 
 .blog-posts {
