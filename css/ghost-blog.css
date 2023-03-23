@@ -37,7 +37,7 @@ hr {
 }
 
 .navbar .navbar-item.is-active {
-  color: #3e2ce2;
+  color: #2a4172;
   font-weight: 700;
 }
 
@@ -53,7 +53,7 @@ hr {
 
 .blog-posts {
   min-height: 100vh;
-  background: #6286ce;
+  background: #011336;
   padding-top: 4rem;
   padding-bottom: 10rem;
 }

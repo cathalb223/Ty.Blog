@@ -1,167 +1,182 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ghost Style Blog - Free Bulma template</title>
-    <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="../css/ghost-blog.css">
-  </head>
+    <title>Blog - My Ty Redhat Blog</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/blog.css">
+</head>
 
-  <section class="hero is-medium">
-    <div class="hero-head">
-      <div class="container">
-
-        
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a href="../index.html" class="navbar-item is-active has-text-grey-light">
-                Home
-              </a>
-              <a href="./about.html" class="navbar-item has-text-grey-light">
-                About
-              </a>
-              <a href="./blog2.html" class="navbar-item has-text-white">
-                Diary
-            </a>
-            <a href="./landing.html" class="navbar-item has-text-grey-light">
-                Landing example 
-            </a>
-            </div>
-
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a href="#">
-                  <i class="fab fa-facebook"></i>
+<body>
+    <!-- START NAV -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                    <img src="../images/axolotl.png" alt="Logo">
                 </a>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fas fa-rss-square"></i>
-                </a>
-              </div>
+                <span class="navbar-burger burger" data-target="navbarMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
             </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <img src="../images/axolotl.png" width="150" height="40">
-        <h2 class="title has-text-white">
-         My TY Red Hat Diary
-        </h2>
-      </div>
-    </div>
-  </section>
-  <div class="bg-img"></div>
-  <section class="blog-posts">
-   
-    <img class="img-responsive" src="https://www.nlspacecampus.eu/cache/3/1920x1080/mob-shutterstock-481251031-20210610135721_1920x1080.jpg"/>
-   
-    <div class="container has-background-link-dark">
-      <div class="columns">
-        <div class="column is-10 is-offset-1">
-          <div class="columns featured-post is-multiline">
-            <div class="column is-12 post">
-              <article class="columns featured">
-                <div class="column is-7 post-img ">
-                  <img src="https://cdn.emk.dev/templates/featured-image.png" alt="">
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="../index.html" class="navbar-item is-active has-text-grey-light">
+                        Home
+                    </a>
+                    <a href="./about.html" class="navbar-item has-text-grey-light">
+                        About
+                    </a>
+                    <a href="./blog2.html" class="navbar-item has-text-white">
+                        Diary
+                    </a>
+                    <a href="./landing.html" class="navbar-item has-text-grey-light">
+                        Landing example 
+                    </a>
                 </div>
-                <div class="column is-5 featured-content va">
-                  <div>
-                    <h3 class="heading post-category">Category Name</h3>
-                    <h1 class="title post-title">Blog Posts Template</h1>
-                    <p class="post-excerpt">This template is based off of the official default blog template created by the fine folks over at <a href="https://ghost.io">Ghost</a>. If you are looking for a fully featured blog platform, I highly recommend checking them out!</p>
-                    <br>
-                    <a href="#" class="button is-primary">Read More</a>
-                  </div>
-</div>
-                </div>
-              </article>
             </div>
-          </div>
-          <hr>
-          <div class="columns is-multiline">
-            <div class="column post is-6">
-              <article class="columns is-multiline">
-                <div class="column is-12 post-img">
-                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
-                </div>
-                <div class="column is-12 featured-content ">
-                  <h3 class="heading post-category">Category Name</h3>
-                  <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
-                  <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
-                  <br>
-                  <a href="#" class="button is-primary">Read More</a>
-                </div>
-              </article>
-            </div>
-            <div class="column post is-6">
-              <article class="columns is-multiline">
-                <div class="column is-12 post-img">
-                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
-                </div>
-                <div class="column is-12 featured-content ">
-                  <h3 class="heading post-category">Category Name</h3>
-                  <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
-                  <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
-                  <br>
-                  <a href="#" class="button is-primary">Read More</a>
-                </div>
-              </article>
-            </div>
-            <div class="column post is-4">
-              <article class="columns is-multiline">
-                <div class="column is-12 post-img">
-                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
-                </div>
-                <div class="column is-12 featured-content ">
-                  <h3 class="heading post-category">Category Name</h3>
-                  <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
-                  <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
-                  <br>
-                  <a href="#" class="button is-primary">Read More</a>
-                </div>
-              </article>
-            </div>
-            <div class="column post is-4">
-              <article class="columns is-multiline">
-                <div class="column is-12 post-img">
-                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
-                </div>
-                <div class="column is-12 featured-content ">
-                  <h3 class="heading post-category">Category Name</h3>
-                  <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
-                  <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
-                  <br>
-                  <a href="#" class="button is-primary">Read More</a>
-                </div>
-              </article>
-            </div>
-            <div class="column post is-4">
-              <article class="columns is-multiline">
-                <div class="column is-12 post-img">
-                  <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
-                </div>
-                <div class="column is-12 featured-content ">
-                  <h3 class="heading post-category">Category Name</h3>
-                  <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
-                  <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
-                  <br>
-                  <a href="#" class="button is-primary">Read More</a>
-                </div>
-              </article>
-            </div>
-          </div>
         </div>
-      </div>
+    </nav>
+    <!-- END NAV -->
 
-  </section>
+    <section class="hero is-info is-medium is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title has-text-grey-lighter is-size-1"> My Red Hat Diary!</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- START ARTICLE FEED -->
+        <section class="articles">
+            <div class="column is-8 is-offset-2">
+                <!-- START ARTICLE -->
+                <div class="card article has-background-link-dark">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content has-text-centered">
+                                <p class="title is-bold has-text-white">Day 1</p>
+                                <div class="tags has-addons level-item">
+                                    <span class="tag is-rounded is-info">@cathalb223</span>
+                                    <span class="tag is-rounded">March 20th, 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content article-body has-text-white">
+                            <p> On the first day of the TY Red Hat programme we came in at 10am in the morning, from there we were lead to our desk for the week. I remember seeing a bag on my desk and
+                              beng confused as to what was in it and if it was for me, but it was filled with Red Hat merch and was for me, so that was immediately a good starter. After that, we 
+                              booted up the computers and had to download some stuff on to the computers. This was my first time using linux, so it took me awhile to get used to. </p>
+                            <p> After that was sorted, we were brought in to a talk about the company and to do some ice breakers, I hate ice breakers with a passion, I know they are necessary but I
+                              still hate them. They did work somwhat, but everyone was still really quiet. We got a tour of the office next, and jesus christ they have a good office. The break room
+                              has consoles, pool, darts and a kitchenette. We had lunch after that, and the snacks were really good. </p> 
+                            <p> Finally we had a workshop on GIT and github where we learned how to use Linux commands, how to make an SSH key and how to make commits of code in GIT. This is where 
+                              we got the task of making this blog. I liked the speakers but it did take awhile to catch everyone up every time we moved on to a new step, but that wasn't their fault.
+                              After working on the blog for awhile it was time to go home
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END ARTICLE -->
+                <!-- START ARTICLE -->
+                <div class="card article has-background-link-dark">
+                  <div class="card-content">
+                      <div class="media">
+                          <div class="media-content has-text-centered">
+                              <p class="title is-bold has-text-white">Day 2</p>
+                              <div class="tags has-addons level-item">
+                                  <span class="tag is-rounded is-info">@cathalb223</span>
+                                  <span class="tag is-rounded">March 21th, 2023</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="content article-body has-text-white">
+                          <p>In the morning on Tuesday we came in at 9:30 am, as we would for the rest of the week, and started working on our blog some more. Our first talk of the day was one on Agile
+                            , a method of getting software projects done with quality while reducing burnout. I really liked the speaker, but I felt kinda bad because we were all still so quiet. The rest
+                            of the day went pretty quick, we worked on the blog some more, which side tangent was really rewarding, I haven't worked much with html or javascript so every time I got something
+                            done it felt really good, I am also really enjoying Bulma. At the end of the day we had a microbit talk, which was grand for me since I have already worked quite a bit with microbit
+                            I got the most out of the bits of Python that we did though.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+                <!-- END ARTICLE -->
+                <!-- START PROMO BLOCK -->
+                <div class="card article has-background-link-dark">
+                  <div class="card-content">
+                      <div class="media">
+                          <div class="media-content has-text-centered">
+                              <p class="title is-bold has-text-white">Day 3</p>
+                              <div class="tags has-addons level-item">
+                                  <span class="tag is-rounded is-info">@cathalb223</span>
+                                  <span class="tag is-rounded">March 22nd, 2023</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="content article-body has-text-white">
+                          <p>Wednesday has definitely been the most valuable day so far, which is saying a lot because I have thouroughly enjoyed this whole week. The first thing we did was begin building a lego
+                            Mclaren as a team building excerise. This was very fun, and it actually got the people doing the programe with me to talk to eachother, including me, so I think that was definitely a big benefit.
+                            But the main thing I got from Wednesday was from the two talks that we went to. One was about software engineering and was done by Rachel Lawton, funnily enough I had actually heard the talk before.
+                            She had come to Ardscoil a week or two beforehand to give the talk, but the extra information and the ability to ask questions made it so that I actually a got a lot out of it. Learning about colleges
+                            and what the day to day is like for a software engineer has me reconsidering what I want to do in college. Which was perfect because the next talk was from someone actually in college. </p>
+                            <p> This talk was clearly pretty improvised by the person doing it, he said as much afterwards, but honestly I really enjoyed it. It felt more like a conversation than a talk, and it was really helpful
+                              to hear about college courses and what college is actually like. I admittedly had the attitude about SETU that he talked about, I didn't really see it as an option, but now after hearing about it
+                              I think its definitely a contender. I have been wanting to go into Genetics in college for a long time, but I think after this week I am going to need to think a lot harder about it.
+                            </p>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="card article has-background-link-dark">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content has-text-centered">
+                            <p class="title is-bold has-text-white">Day 4</p>
+                            <div class="tags has-addons level-item">
+                                <span class="tag is-rounded is-info">@cathalb223</span>
+                                <span class="tag is-rounded">March 23rd, 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content article-body has-text-white">
+                        <p>This is the first day I will be writing as it happens. We got in this morning and went to a 'town hall meeting' where a bunch of the employees, even those working from home, touched base and talked about
+                          stuff that is going on, I was nervous because we were told that we had to say our names and a fun fact about us. Tying back to my hatred of ice breakers, this was quite possibly the worst thing that could
+                          have happened to me. It was just me being dramatic though, it went well and then we had breakfast which was actually really good. I felt bad taking some though since there was a bunch of us TYs compared to
+                          the actual employees.
+
+                          The first talk today was on telemetry in F1 and a lot of it kinda went over my head a bit, but it was nice hearing from someone who clearly enjoys what he is doing and it was interesting nonetheless.
+                        </p>
+                          
+                    </div>
+                </div>
+            </div>
+
+                <!-- END ARTICLE -->
+            </div>
+
+        </section>
+        <!-- END ARTICLE FEED -->
+    </div>
+    <script async type="text/javascript" src="../js/bulma.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            //The first argument are the elements to which the plugin shall be initialized
+            //The second argument has to be at least a empty object or a object with your desired options
+            OverlayScrollbars(document.querySelectorAll("body"), {});
+        });
+    </script>
+</body>
+
 </html>
