@@ -3,8 +3,8 @@ html,body {
 }
 .hero.is-info {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
     ), url('https://unsplash.it/id/537/2291/3450') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
